@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+.dashboard-main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #efefef;
+}
+
+.nav{
+    position: absolute;
+    background-color: #efefef;
+    box-shadow: 0 0 15px 0 #ccc;
+    width: 1536px;
+    height: 62px;
+}
+
+.logout-img{
+    position: absolute;
+    height: 35.4px;
+    width: 37.4px;
+    top: 11px;
+    left: 1278px;
+}
+
+.profile-img{
+    position: absolute; 
+    left: 1330px;
+    top: 5px;
+    height: 50px;
+    
+}
+
+.aside{
+    position: absolute;
+    height: 100vh;
+    width: 235px;
+    background-color: #333a56;
+}
+
+img{
+    position: absolute;
+    height: 48px;
+    width: 189.18px;
+    top:7px;
+    left: 22px;
+}
+
+.aside-d-i{
+ position: absolute;
+ height: 23px;
+ top: 65px;
+ left: 21px;
+ width: 23.6px;
+}
+
+.aside-d-t{
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    top: 70px;
+    left: 55px;
+    color: #efefef;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.aside-md-i{
+    position: absolute;
+    height: 23px;
+    top: 100px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-md-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 105px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+   }
+
+   .aside-ms-i{
+    position: absolute;
+    height: 23px;
+    top: 135px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-ms-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 140px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+   }
+
+   .aside-mth-i{
+    position: absolute;
+    height: 23px;
+    top: 170px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-mth-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 175px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .aside-mp-i{
+    position: absolute;
+    height: 23px;
+    top: 205px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-mp-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 210px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .aside-mps-i{
+    position: absolute;
+    height: 23px;
+    top: 240px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-mps-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 245px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .aside-mbr-i{
+    position: absolute;
+    height: 23px;
+    top: 275px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-mbr-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 280px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .aside-ma-i{
+    position: absolute;
+    height: 23px;
+    top: 310px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-ma-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 315px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .aside-mpus-i{
+    position: absolute;
+    height: 23px;
+    top: 345px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-mpus-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 350px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+   
+   .aside-me-i{
+    position: absolute;
+    height: 23px;
+    top: 380px;
+    left: 21px;
+    width: 23.6px;
+   }
+   
+   .aside-me-t{
+       position: absolute;
+       font-family: "Dosis", sans-serif;
+       top: 385px;
+       left: 55px;
+       color: #efefef;
+       font-size: 12px;
+       font-weight: 600;
+       
+       
+   }
+
+   .cpr-inside{
+    position: absolute;
+    top: 635px;
+   width: 215px;
+    height: 140px;
+    left: 15px;
+    
+   }
+
+   .pledgor-img{
+        position: absolute;
+        width: 1290px;
+        height: 715px;
+        left: 240px;
+        top: 60px;
+   }

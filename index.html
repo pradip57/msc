@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mero Share</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="dp_id_pass">
+        <div class="mero-share-png-div">
+          <img class="mero-share-png" src="./images/mero-share.png" alt="" />
+        </div>
+        <div class="dp_id_pass_text">
+          <img class="depo-img" src="./images/depo.png" height="26px" alt="" />
+          <p class="depo-text">Depository Participants</p>
+          <select id="brokers" class="depo-input">
+            <option value="" selected disabled class="placeholder">
+              Select your DP
+            </option>
+            <option value="12300">
+              AGRAWAL SECURITIES PRIVATE LIMITED (12300)
+            </option>
+            <option value="17200">
+              AGRICULTURAL DEVELOPMENT BANK LIMITED (17200)
+            </option>
+            <option value="19000">AAKASH CAPITAL LIMITED (19000)</option>
+            <option value="20600">
+              AAKASHBHAIRAB SECURITIES LIMITED (20600)
+            </option>
+            <option value="13200">
+              ABC SECURITIES PRIVATE LIMITED (13200)
+            </option>
+            <option value="12700">
+              ARANIKO DEVELOPMENT BANK LIMITED (12700)
+            </option>
+            <option value="11900">
+              ARYATARA INVESTMENT AND SECURITIES PVT. LTD. (11900)
+            </option>
+            <option value="12400">
+              ASHUTOSH BROKERAGE AND SECURITIES PVT. LTD. (12400)
+            </option>
+            <option value="14500">ASIAN SECURITIES PVT. LTD. (14500)</option>
+            <option value="10500">ASIAN LIFE INSURANCE CO. LTD. (10500)</option>
+            <option value="10600">BANK OF KATHMANDU LIMITED (10600)</option>
+            <option value="11000">BANK OF KATHMANDU LTD. (11000)</option>
+            <option value="17500">BHRIKUTI SECURITIES PVT. LTD. (17500)</option>
+            <option value="21300">BHUGOL SECURITIES PVT. LTD. (21300)</option>
+            <option value="14800">BIKASH SECURITIES PVT. LTD. (14800)</option>
+            <option value="17100">
+              CITIZENS BANK INTERNATIONAL LTD. (17100)
+            </option>
+            <option value="10700">CITIZEN INVESTMENT TRUST (10700)</option>
+            <option value="15400">CRYSTAL SECURITIES PVT. LTD. (15400)</option>
+            <option value="17700">
+              DEBENTURE SECURITIES PVT. LTD. (17700)
+            </option>
+            <option value="15800">DEERWALK SECURITIES PVT. LTD. (15800)</option>
+            <option value="16200">
+              DYNAMIC MONEY MARKET PVT. LTD. (16200)
+            </option>
+            <option value="13300">EVEREST SECURITIES PVT. LTD. (13300)</option>
+            <option value="15000">EVEREST BANK LTD. (15000)</option>
+            <option value="12700">GARIMA CAPITAL LIMITED (12700)</option>
+            <option value="20400">GLOBAL IME BANK LTD. (20400)</option>
+            <option value="14900">GLOBAL IME CAPITAL LIMITED (14900)</option>
+            <option value="15600">GURANS SECURITIES PVT. LTD. (15600)</option>
+            <option value="16000">
+              HIMALAYAN SECURITIES PVT. LTD. (16000)
+            </option>
+            <option value="15100">HIMALAYAN BANK LTD. (15100)</option>
+            <option value="10800">ICRA NEPAL LIMITED (10800)</option>
+            <option value="14600">IMPERIAL SECURITIES PVT. LTD. (14600)</option>
+            <option value="14200">JANATA BANK NEPAL LTD. (14200)</option>
+            <option value="11200">JYOTI CAPITAL MARKET LIMITED (11200)</option>
+            <option value="20700">KUMARI BANK LTD. (20700)</option>
+            <option value="21000">KUMARI CAPITAL LIMITED (21000)</option>
+            <option value="14300">LAXMI BANK LTD. (14300)</option>
+            <option value="11700">LAXMI CAPITAL MARKET LIMITED (11700)</option>
+            <option value="12600">
+              MACHHAPUCHCHHRE SECURITIES LIMITED (12600)
+            </option>
+            <option value="13100">MACHHAPUCHCHHRE BANK LTD. (13100)</option>
+            <option value="16800">MEGA SECURITIES PVT. LTD. (16800)</option>
+            <option value="20200">MEGA BANK NEPAL LTD. (20200)</option>
+            <option value="18400">MERIDIAN SECURITIES PVT. LTD. (18400)</option>
+            <option value="12500">
+              MOUNT INVESTMENT SECURITIES PVT. LTD. (12500)
+            </option>
+            <option value="11800">
+              NABIL INVESTMENT BANKING LIMITED (11800)
+            </option>
+            <option value="14000">NEPAL INVESTMENT BANK LIMITED (14000)</option>
+            <option value="14700">NEPAL BANK LTD. (14700)</option>
+            <option value="14100">
+              NEPAL CREDIT AND COMMERCE BANK LTD. (14100)
+            </option>
+            <option value="20500">
+              NEPAL SBI MERCHANT BANKING LIMITED (20500)
+            </option>
+            <option value="10300">NEPAL STOCK EXCHANGE LIMITED (10300)</option>
+            <option value="11900">NIC ASIA CAPITAL LIMITED (11900)</option>
+            <option value="15300">NIC ASIA BANK LTD. (15300)</option>
+            <option value="16900">NMB CAPITAL LIMITED (16900)</option>
+            <option value="13700">NMB BANK LTD. (13700)</option>
+            <option value="11400">PRABHU CAPITAL LIMITED (11400)</option>
+            <option value="11300">PRABHU BANK LTD. (11300)</option>
+            <option value="11500">PREMIER SECURITIES PVT. LTD. (11500)</option>
+            <option value="11100">PRIME CAPITAL MARKETS LIMITED (11100)</option>
+            <option value="16300">
+              RELIANCE CAPITAL MARKETS LIMITED (16300)
+            </option>
+            <option value="17000">RBB MERCHANT BANKING LTD. (17000)</option>
+            <option value="19900">
+              SHINE RESUNGA DEVELOPMENT BANK LTD. (19900)
+            </option>
+            <option value="14400">SANIMA CAPITAL LIMITED (14400)</option>
+            <option value="19800">
+              STANDARD CHARTERED BANK NEPAL LTD. (19800)
+            </option>
+            <option value="13600">SIDDHARTHA BANK LTD. (13600)</option>
+            <option value="13000">SIDDHARTHA CAPITAL LIMITED (13000)</option>
+            <option value="12200">SIPRABI SECURITIES PVT. LTD. (12200)</option>
+            <option value="15500">SUNRISE BANK LTD. (15500)</option>
+            <option value="12000">
+              SOUTH ASIAN CAPITAL MARKETS LIMITED (12000)
+            </option>
+            <option value="16700">
+              TRISHAKTI SECURITIES PVT. LTD. (16700)
+            </option>
+            <option value="16100">UNITED CAPITAL MARKET LIMITED (16100)</option>
+          </select>
+        </div>
+        <div class="dp_id_pass_text">
+          <img class="user-img" src="./images/user.png" height="25px" alt="" />
+          <p class="user-text">Username</p>
+          <input class="user-input" type="text" value="01130467" />
+        </div>
+        <div class="dp_id_pass_text">
+          <img class="pass-img" src="./images/lock.png" height="26px" alt="" />
+          <p class="pass-text">Password</p>
+          <input class="pass-input" type="password" value="hfdijhfi" />
+        </div>
+
+        <div class="login-btn">
+          <a href="/dashboard/dashboard.html"
+            ><button class="btn-class">Login</button></a
+          >
+        </div>
+        <div class="forget-pass-div">
+          <a href="https://meroshare.cdsc.com.np/#/forgetPassword"><p class="forget-pass-text">Forgot your password?</p></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 CDS and Clearing Limited. All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #333a56;
+    
+}
+
+.dp_id_pass{
+    position: absolute;
+    left: 535px;
+    top: 105px;
+    height: 501px;
+    width: 464px;
+    background-color: #333a56;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, .3);;
+}
+
+.mero-share-png{
+    
+    height: 64px;
+    width: 250.8px;
+    
+}
+
+.mero-share-png-div{
+    position: absolute;
+    left: 107px;
+    top: 37px;
+}
+
+.dp_id_pass_text{
+    
+    
+    left: 100px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12.8px;
+}
+
+.depo-text{
+    position: absolute;
+    top: 121px;
+    left: 57px;
+
+}
+
+.depo-img{
+    position: absolute;
+    top: 111px;
+    left: 30px;
+}
+.depo-input{
+    position: absolute;
+    left: 35px;
+    top:150px;
+    width: 395.2px;
+    height: 34.6px;
+    border-radius: 4px;
+    border-color: #e0e5e9;
+    border: none;
+    text-decoration: none;
+    padding: 0px 8px;
+    font-family:"Roboto Condensed", sans-serif; 
+    outline: none;
+    color: #444444;
+    
+    
+}
+
+
+
+
+
+
+.user-text{
+    position: absolute;
+    top: 205px;
+    left: 57px;
+
+}
+
+.user-img{
+    position: absolute;
+    top: 197px;
+    left: 32px;
+}
+
+.user-input{
+    position: absolute;
+    left: 35px;
+    top:230px;
+    width: 395.2px;
+    height: 34.6px;
+    border-radius: 4px;
+    border-color: #e0e5e9;
+    border: none;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-family:"Roboto Condensed", sans-serif; 
+    outline: none;
+    
+}
+
+.pass-text{
+    position: absolute;
+    top: 289px;
+    left: 57px;
+
+}
+
+.pass-img{
+    position: absolute;
+    top: 280px;
+    left: 32px;
+}
+
+.pass-input{
+    position: absolute;
+    left: 35px;
+    top:315px;
+    width: 395.2px;
+    height: 34.6px;
+    border-radius: 4px;
+    border-color: #e0e5e9;
+    border: none;
+    text-decoration: none;
+    padding: 0px 15px;
+    outline: none;
+    
+    
+}
+
+
+.login-btn{
+    position: absolute;
+    
+    left: 35px;
+    top: 375px;
+}
+
+
+.btn-class{
+    
+    background-color: red;
+    height: 46.4px;
+    width: 395.2px;
+    background-color: #5e6ea7;
+    color: white;
+    font: 16px;
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 11.2px;
+    border: none;
+    
+}
+
+
+
+.forget-pass-div{
+    position: absolute;
+    top: 450px;
+    left: 176px;
+}
+
+.forget-pass-text{
+    
+    font-size: 14px;
+    font-family:"Roboto Condensed", sans-serif; 
+    color: white;
+    
+    
+}
+
+.forget-pass-text:hover{
+    text-decoration: underline;
+}
+
+
+
+.copyright{
+    position: absolute;
+    left: 615px;
+    top: 635px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14.4px;
+}
