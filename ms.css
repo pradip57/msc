@@ -15,7 +15,7 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #e4e5e6;
+    background-color: #efefef;
 }
 
 .nav{
@@ -261,5 +261,24 @@ img{
     height: 140px;
     left: 15px;
     
+   }
+
+   .ms-head{
+    position: absolute;
+    height: 60px;
+    width: 1220px;
+    left: 255px;
+    top: 70px;
+
+   }
+
+   
+   .ms-share{
+    position: absolute;
+    height: 180px;
+    width: 1250px;
+    left: 255px;
+    top: 140px;
+
    }
 

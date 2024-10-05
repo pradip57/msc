@@ -15,7 +15,7 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #e4e5e6;
+    background-color: #efefef;
 }
 
 .nav{
@@ -263,3 +263,133 @@ img{
     
    }
 
+   .port{
+    position: absolute;
+    width: 1270px;
+    height: 288px;
+    top: 75px;
+    left: 250px;
+   }
+
+   
+    
+
+    .s-kitta{
+        position: absolute;
+        color: #5f635a;
+        left: 520px;
+        top: 210px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }  
+
+    .g-kitta{
+        position: absolute;
+        color: #5f635a;
+        left: 525px;
+        top: 247px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s-yes{
+        position: absolute;
+        color: #5f635a;
+        left: 730px;
+        top: 210px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .g-yes{
+        position: absolute;
+        color: #5f635a;
+        left: 730px;
+        top: 247px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .g-yes-total{
+        position: absolute;
+        color: #5f635a;
+        left: 1020px;
+        top: 247px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s-yes-total{
+        position: absolute;
+        color: #5f635a;
+        left: 1020px;
+        top: 210px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s-ltp{
+        position: absolute;
+        color: #5f635a;
+        left: 1290px;
+        top: 210px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .g-ltp{
+        position: absolute;
+        color: #5f635a;
+        left: 1290px;
+        top: 247px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s-ltp-total{
+        position: absolute;
+        color: #5f635a;
+        left: 1440px;
+        top: 210px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .g-ltp-total{
+        position: absolute;
+        color: #5f635a;
+        left: 1440px;
+        top: 247px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s_g-ltp-total{
+        position: absolute;
+        color: #5f635a;
+        left: 1415px;
+        top: 285px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .s_g-yes-total{
+        position: absolute;
+        color: #5f635a;
+        left: 995px;
+        top: 285px;
+        font-size: 14.4px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif;
+    }
