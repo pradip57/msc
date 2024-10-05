@@ -15,7 +15,7 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #e4e5e6;
+    background-color: #efefef;
 }
 
 .nav{
@@ -261,5 +261,38 @@ img{
     height: 140px;
     left: 15px;
     
+   }
+
+   .ma-content{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+   top: 100px;
+   left: 280px;
+    
+    
+   }
+
+   .ma-content1{
+    
+    text-decoration: none;
+    color: #636262;
+    font-size: 15px;
+    font-weight: 600;
+    
+    font-family: "Dosis", sans-serif;
+    
+   }
+
+   .ma-content1:hover{
+color: #111210;
+   }
+
+   .ma_c{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    height: 400px;
+    width: 480px;
    }
 
