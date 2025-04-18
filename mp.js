@@ -1,13 +1,13 @@
 let cur_bal_s = 180;
-let pre_clo_price_s = 300;
+let pre_clo_price_s = 306.23;
 let val_pre_clo_s = cur_bal_s * pre_clo_price_s;
-let ltp_s = 320;
+let ltp_s = 306.23;
 let val_ltp_s = cur_bal_s * ltp_s;
 
 let cur_bal_g = 50;
-let pre_clo_price_g = 200;
+let pre_clo_price_g = 222.62;
 let val_pre_clo_g = cur_bal_g * pre_clo_price_g;
-let ltp_g = 250;
+let ltp_g = 222.62;
 let val_ltp_g = cur_bal_g * ltp_g;
 
 let tot_pre_clo = val_pre_clo_g + val_pre_clo_s;
